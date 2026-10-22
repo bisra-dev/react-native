@@ -119,11 +119,11 @@
     }
 
     .upcoming-card {
-        @apply mr-4 w-44 rounded-2xl border border-black/10 bg-background p-4;
+        @apply mr-4 w-48 rounded-2xl border border-black/10 bg-background p-4;
     }
 
     .upcoming-row {
-        @apply flex-row items-center gap-3;
+        @apply flex-row items-center gap-2;
     }
 
     .upcoming-icon {
@@ -167,7 +167,7 @@
     }
 
     .sub-title {
-        @apply mb-1 text-lg font-sans-bold text-primary;
+        @apply mb-1 text-xs font-sans-bold text-primary;
     }
 
     .sub-meta {
