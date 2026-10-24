@@ -1,5 +1,15 @@
 # Welcome to your Expo app 👋
 
+## Authentication
+
+Recurly uses custom email and password screens backed by Clerk. Add a Clerk publishable key to the local `.env` file:
+
+```env
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
+```
+
+In the Clerk Dashboard, enable the Native API, email sign-in and sign-up, password authentication, and email verification codes. The app persists the active session with Expo SecureStore. The publishable key is public by design; never put a Clerk secret key in an `EXPO_PUBLIC_` variable or the mobile app.
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
